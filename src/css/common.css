@@ -19,10 +19,33 @@ img {
 
 button{
   color: black;
-  padding: 10px;
   font-weight: 500;
 }
 
 button:hover{
   cursor:pointer
+}
+
+
+.timer{
+  display: flex;
+}
+.field{
+  display:grid;
+  text-align: center;
+}
+
+.field:not(:last-child){
+  margin-right: 5px;
+}
+
+.value{
+  font-size: 28px;
+  font-weight: 400 ;
+}
+
+.label{
+  font-size: 15px;
+  font-weight: 500;
+  text-transform:uppercase;
 }
