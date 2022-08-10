@@ -1,0 +1,2 @@
+!function(){var t=document.querySelector("button[data-start]"),e=document.querySelector("button[data-stop]"),d=0;t.addEventListener("click",(function(){t.setAttribute("disabled",!0),d=setInterval((function(){document.body.style.backgroundColor="#".concat(Math.floor(16777215*Math.random()).toString(16))}),1e3),t.disabled=!0,e.disabled=!1})),e.addEventListener("click",(function(){clearTimeout(d),t.disabled=!1,e.disabled=!0}))}();
+//# sourceMappingURL=01-color-switcher.a2d27cad.js.map
